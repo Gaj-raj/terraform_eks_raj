@@ -16,6 +16,6 @@ module "eks" {
   instance_types = ["t3.small"]
   desired_size   = 2
   min_size       = 1
-  max_size       = 5
+  max_size       = 4
   public_subnets = module.vpc.public_subnets
 }
